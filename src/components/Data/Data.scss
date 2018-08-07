@@ -1,0 +1,16 @@
+@import '../../common/variables';
+
+.item {
+  border-bottom: 1px solid $item-sep;
+}
+
+a {
+  color: $a;
+  text-decoration: none;
+  font-weight: 700;
+
+  &:hover {
+    color: $a-hov;
+    text-decoration: underline;
+  }
+}
